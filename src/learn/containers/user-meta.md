@@ -16,7 +16,7 @@ Container::make( 'user_meta', 'Address' )
 
 ### Accessing field values
 
-To access field values you need to use the function `carbon_get_user_meta( $user_d, $name )`, where:
+To access field values you need to use the function `carbon_get_user_meta( $user_id, $name )`, where:
 
 | Parameter            | Description                                                                         |
 | -------------------- | ----------------------------------------------------------------------------------- |
