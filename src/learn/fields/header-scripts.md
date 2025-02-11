@@ -17,7 +17,7 @@ Field::make( 'header_scripts', 'crb_header_scripts', __( 'Header Scripts' ) )
 Set what hook the field should use. Default is `wp_head`.
 
 ```php
-Field::make( 'text', 'crb_phone', __( 'Phone' ) )
+Field::make( 'header_scripts', 'crb_header_scripts', __( 'Header Scripts' ) )
     ->set_hook_name( 'wp_print_scripts' );
 ```
 
@@ -26,7 +26,7 @@ Field::make( 'text', 'crb_phone', __( 'Phone' ) )
 Set what priority the hook should use. Default is 10.
 
 ```php
-Field::make( 'text', 'crb_phone', __( 'Phone' ) )
+Field::make( 'header_scripts', 'crb_header_scripts', __( 'Header Scripts' ) )
     ->set_hook_priority( 11 );
 ```
 
@@ -35,6 +35,6 @@ Field::make( 'text', 'crb_phone', __( 'Phone' ) )
 Shorthand for both `set_hook_name()` and `set_hook_priority()`.
 
 ```php
-Field::make( 'text', 'crb_phone', __( 'Phone' ) )
+Field::make( 'header_scripts', 'crb_header_scripts', __( 'Header Scripts' ) )
     ->set_hook( 'wp_print_scripts', 11 );
 ```
